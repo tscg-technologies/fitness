@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITNESS STUDIO &mdash; Find Your Energy. Build Your Strength.</title>
+  <meta name="description" content="Discover premium boutique fitness experiences, energizing group workouts, HIIT, Pilates, strength training, and tailored coaching at FITNESS STUDIO.">
+  <link rel="canonical" href="https://example.com/index.html">
+  <meta property="og:title" content="FITNESS STUDIO &mdash; Find Your Energy. Build Your Strength.">
+  <meta property="og:description" content="Premium boutique fitness classes, HIIT, Pilates, strength, and community-driven workouts.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="FITNESS STUDIO Home">
+        <svg class="brand-logo-symbol" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="50" cy="50" r="44" stroke="#383E3A" stroke-width="4" stroke-dasharray="8 6"/>
+          <path d="M28 50C28 37.8497 37.8497 28 50 28C62.1503 28 72 37.8497 72 50C72 62.1503 62.1503 72 50 72" stroke="#C7F36B" stroke-width="6" stroke-linecap="round"/>
+          <path d="M50 22C34.536 22 22 34.536 22 50C22 65.464 34.536 78 50 78C65.464 78 78 65.464 78 50" stroke="#A9C99C" stroke-width="3" stroke-linecap="round" stroke-dasharray="14 10"/>
+          <circle cx="50" cy="50" r="10" fill="#C7F36B"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-title">FITNESS STUDIO</span>
+          <span class="brand-tagline-sub">FIND YOUR ENERGY</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <div class="nav-item-dropdown">
+          <a href="classes.html" class="nav-link nav-dropdown-toggle" id="classesDropdown">
+            Classes
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="classesDropdown">
+            <a href="classes.html" class="dropdown-link">All Classes</a>
+            <a href="hiit.html" class="dropdown-link">HIIT Training</a>
+            <a href="strength.html" class="dropdown-link">Strength Training</a>
+            <a href="pilates.html" class="dropdown-link">Pilates</a>
+            <a href="yoga.html" class="dropdown-link">Yoga & Mobility</a>
+            <a href="dance-fitness.html" class="dropdown-link">Dance Fitness</a>
+            <a href="functional-training.html" class="dropdown-link">Functional Training</a>
+            <a href="personal-training.html" class="dropdown-link">Personal Training</a>
+            <a href="group-training.html" class="dropdown-link">Group Fitness</a>
+          </div>
+        </div>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="trainers.html" class="nav-link">Trainers</a>
+        <a href="membership.html" class="nav-link">Membership</a>
+
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="booking.html" class="btn btn-primary btn-sm">Book a Class</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <div class="mobile-nav-item"><a href="index.html" class="active">Home</a></div>
+      <div class="mobile-nav-item"><a href="about.html">About the Studio</a></div>
+      <div class="mobile-nav-item">
+        <button class="mobile-dropdown-header" aria-expanded="false">
+          Fitness Classes
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="mobile-dropdown-content">
+          <a href="classes.html">All Classes Overview</a>
+          <a href="hiit.html">HIIT Training</a>
+          <a href="strength.html">Strength Training</a>
+          <a href="pilates.html">Pilates</a>
+          <a href="yoga.html">Yoga & Mobility</a>
+          <a href="dance-fitness.html">Dance Fitness</a>
+          <a href="functional-training.html">Functional Training</a>
+          <a href="personal-training.html">Personal Training</a>
+          <a href="group-training.html">Group Fitness</a>
+        </div>
+      </div>
+      <div class="mobile-nav-item"><a href="programs.html">Fitness Programs</a></div>
+      <div class="mobile-nav-item"><a href="trainers.html">Our Trainers</a></div>
+      <div class="mobile-nav-item"><a href="schedule.html">Class Schedule</a></div>
+      <div class="mobile-nav-item"><a href="membership.html">Membership & Pricing</a></div>
+      <div class="mobile-nav-item"><a href="gallery.html">Studio Gallery</a></div>
+      <div class="mobile-nav-item"><a href="events.html">Events & Workshops</a></div>
+      <div class="mobile-nav-item"><a href="blog.html">Fitness Journal</a></div>
+      <div class="mobile-nav-item"><a href="faq.html">FAQ</a></div>
+      <div class="mobile-nav-item"><a href="contact.html">Contact Us</a></div>
+    </div>
+    <div class="mobile-drawer-cta">
+      <a href="booking.html" class="btn btn-primary">Book a Class</a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Section 1: Hero -->
+    <section class="hero-home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Boutique Fitness Studio</span>
+          <h1>MAKE EVERY MOVE COUNT.</h1>
+          <p class="lead">Discover a better way to move, train, and feel stronger with energizing fitness classes designed for every stage of your fitness journey.</p>
+          <div class="btn-group">
+            <a href="classes.html" class="btn btn-primary btn-lg">Explore Our Classes</a>
+            <a href="booking.html" class="btn btn-outline btn-lg">Book a Class</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value">6+</span>
+              <span class="metric-label">Training Disciplines</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">45-60</span>
+              <span class="metric-label">Min Class Formats</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">100%</span>
+              <span class="metric-label">Coached Sessions</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="media-frame ratio-4-5">
+              <img src="images/home-hero-fitness-studio.jpeg" alt="FITNESS STUDIO - Home Hero Fitness Studio" class="media-img" loading="eager">
+            </div>
+        </div>
+      </div>
+      <a href="#intro" class="scroll-indicator" aria-label="Scroll down to introduction">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 10l5 5 5-5"/></svg>
+      </a>
+    </section>
+
+    <!-- Section 2: Introduction -->
+    <section class="section section-alt" id="intro">
+      <div class="container editorial-grid">
+        <div class="intro-media">
+          <div class="media-frame ratio-16-9">
+              <img src="images/home-studio-interior.jpeg" alt="FITNESS STUDIO - Home Studio Interior" class="media-img" loading="lazy">
+            </div>
+        </div>
+        <div class="intro-copy">
+          <span class="eyebrow">Welcome to the Studio</span>
+          <h2>YOUR SPACE. YOUR ENERGY. YOUR FITNESS JOURNEY.</h2>
+          <p class="lead">FITNESS STUDIO is designed as a sanctuary for focused physical training, restorative movement, and community connection.</p>
+          <p>We believe that workout spaces should inspire confidence rather than intimidation. From morning high-intensity interval conditioning to evening mindful mobility, our studio brings together progressive movement principles, premium equipment, and supportive group motivation.</p>
+          <div class="btn-group" style="margin-top: 1.5rem;">
+            <a href="about.html" class="btn btn-outline">Learn About Our Space</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Explore Our Classes -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">Curated Movement Disciplines</span>
+          <h2>EXPLORE OUR CLASSES</h2>
+          <p>Every session is structured with focused coaching, purposeful music, and adaptable progressions for every fitness level.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <!-- Card 1: HIIT -->
+          <article class="class-card">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-hiit-training.jpeg" alt="FITNESS STUDIO - Class HIIT Training" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-lime">HIIT</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>HIIT Training</h3>
+              <p>Dynamic interval bursts combining cardio, bodyweight patterns, and functional equipment to elevate endurance.</p>
+              <div class="class-specs-list">
+                <span class="badge">Intermediate</span>
+                <span class="badge">High Energy</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="hiit.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Strength -->
+          <article class="class-card">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-strength-training.jpeg" alt="FITNESS STUDIO - Class Strength Training" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-mint">Strength</span>
+                <span class="badge">60 Min</span>
+              </div>
+              <h3>Strength Training</h3>
+              <p>Structured resistance circuits focusing on form, kettlebells, dumbbells, and controlled multi-joint movement patterns.</p>
+              <div class="class-specs-list">
+                <span class="badge">All Levels</span>
+                <span class="badge">Resistance</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="strength.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Pilates -->
+          <article class="class-card">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-pilates.jpeg" alt="FITNESS STUDIO - Class Pilates" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-beige">Pilates</span>
+                <span class="badge">50 Min</span>
+              </div>
+              <h3>Pilates</h3>
+              <p>Precision core control, isometric stabilization, postural alignment, and balanced muscular conditioning.</p>
+              <div class="class-specs-list">
+                <span class="badge">Beginner Friendly</span>
+                <span class="badge">Core Focus</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="pilates.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Yoga & Mobility -->
+          <article class="class-card">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-yoga-mobility.jpeg" alt="FITNESS STUDIO - Class Yoga Mobility" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-mint">Mobility</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>Yoga & Mobility</h3>
+              <p>Fluid movement sequences, joint decompression, deliberate breathing, and restorative full-body stretches.</p>
+              <div class="class-specs-list">
+                <span class="badge">All Levels</span>
+                <span class="badge">Recovery</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="yoga.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Dance Fitness -->
+          <article class="class-card">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dance-fitness.jpeg" alt="FITNESS STUDIO - Class Dance Fitness" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-lime">Dance</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>Dance Fitness</h3>
+              <p>Rhythm-led cardiovascular choreographies that elevate your heart rate while celebrating joyful group movement.</p>
+              <div class="class-specs-list">
+                <span class="badge">All Levels</span>
+                <span class="badge">Cardio Party</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="dance-fitness.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Functional Training -->
+          <article class="class-card">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-functional-training.jpeg" alt="FITNESS STUDIO - Class Functional Training" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-beige">Functional</span>
+                <span class="badge">50 Min</span>
+              </div>
+              <h3>Functional Training</h3>
+              <p>Practical multi-planar agility, balance coordination, and strength drills that support everyday athletic resilience.</p>
+              <div class="class-specs-list">
+                <span class="badge">Intermediate</span>
+                <span class="badge">Athletic</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="functional-training.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center" style="margin-top: 3rem;">
+          <a href="classes.html" class="btn btn-outline btn-lg">View Complete Class Directory</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Studio Philosophy -->
+    <section class="section section-alt">
+      <div class="container editorial-grid reverse">
+        <div class="philosophy-media">
+          <div class="media-frame ratio-4-5">
+              <img src="images/home-studio-philosophy.jpeg" alt="FITNESS STUDIO - Home Studio Philosophy" class="media-img" loading="lazy">
+            </div>
+        </div>
+        <div class="philosophy-copy">
+          <span class="eyebrow">Our Guiding Principle</span>
+          <h2>FITNESS THAT FITS YOUR LIFE.</h2>
+          <p class="lead">Sustainable fitness is built on enjoyable consistency, thoughtful coaching, and listening to how your body responds.</p>
+          <p>We reject quick-fix mentalities and extreme burnout regimes. Instead, we structure workouts that respect individual starting points while gradually building lasting capacity.</p>
+          <ul style="display:flex; flex-direction:column; gap:0.85rem; margin:1.5rem 0 2rem;">
+            <li style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <strong>Consistent Movement:</strong> Daily patterns designed for longevity.
+            </li>
+            <li style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <strong>Structured Workouts:</strong> Intentional warm-ups, progressions, and cool-downs.
+            </li>
+            <li style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <strong>Supportive Coaching:</strong> Direct feedback on technique and pacing.
+            </li>
+            <li style="display:flex; align-items:center; gap:0.75rem; color:var(--text-secondary);">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <strong>Varied Training Styles:</strong> Balancing intense energy with mindful mobility.
+            </li>
+          </ul>
+          <a href="about.html" class="btn btn-secondary">Read Studio Philosophy</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Featured Classes -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">Studio Signatures</span>
+          <h2>FEATURED CLASSES</h2>
+          <p>Three core studio experiences that balance high energy, resistance development, and mindful recovery.</p>
+        </div>
+
+        <div class="featured-panels-grid">
+          <!-- Panel 1 -->
+          <div class="featured-panel">
+            <div class="media-frame ratio-16-9">
+              <img src="images/featured-hiit-energy.jpeg" alt="FITNESS STUDIO - Featured HIIT Energy" class="media-img" loading="lazy">
+            </div>
+            <div class="featured-panel-body">
+              <span class="badge badge-lime" style="width:fit-content; margin-bottom:1rem;">High Energy</span>
+              <h3>High Energy HIIT</h3>
+              <p>Short explosive intervals sequenced with functional bodyweight transitions for participants seeking an energizing cardio boost.</p>
+              <a href="hiit.html" class="btn btn-outline btn-sm">Explore HIIT Sessions</a>
+            </div>
+          </div>
+
+          <!-- Panel 2 -->
+          <div class="featured-panel">
+            <div class="media-frame ratio-16-9">
+              <img src="images/featured-strength-sculpt.jpeg" alt="FITNESS STUDIO - Featured Strength Sculpt" class="media-img" loading="lazy">
+            </div>
+            <div class="featured-panel-body">
+              <span class="badge badge-mint" style="width:fit-content; margin-bottom:1rem;">Strength & Tone</span>
+              <h3>Strength and Sculpt</h3>
+              <p>Controlled resistance training emphasizing progressive overload, posture stabilization, and purposeful compound lifts.</p>
+              <a href="strength.html" class="btn btn-outline btn-sm">Explore Strength Sessions</a>
+            </div>
+          </div>
+
+          <!-- Panel 3 -->
+          <div class="featured-panel">
+            <div class="media-frame ratio-16-9">
+              <img src="images/featured-pilates-mobility.jpeg" alt="FITNESS STUDIO - Featured Pilates Mobility" class="media-img" loading="lazy">
+            </div>
+            <div class="featured-panel-body">
+              <span class="badge badge-beige" style="width:fit-content; margin-bottom:1rem;">Core & Posture</span>
+              <h3>Pilates and Mobility</h3>
+              <p>Mindful mat flows concentrating on spinal articulation, pelvic alignment, and deep stabilizing muscle engagement.</p>
+              <a href="pilates.html" class="btn btn-outline btn-sm">Explore Pilates Sessions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Why Train With Us? -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">Studio Benefits</span>
+          <h2>WHY TRAIN WITH US?</h2>
+          <p>We provide a modern fitness atmosphere rooted in practical movement, friendly guidance, and flexible choices.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="feature-icon-card">
+            <div class="feature-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            </div>
+            <h4>Variety of Workout Styles</h4>
+            <p>Switch between strength circuits, interval cardio, Pilates mat sessions, and restorative yoga in a single weekly routine.</p>
+          </div>
+
+          <div class="feature-icon-card">
+            <div class="feature-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <h4>Beginner-Friendly Options</h4>
+            <p>Every movement includes scaled variations and coach modifications to ensure everyone feels secure and confident.</p>
+          </div>
+
+          <div class="feature-icon-card">
+            <div class="feature-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Group Fitness Experiences</h4>
+            <p>Train alongside like-minded participants in an encouraging environment where collective momentum fuels your consistency.</p>
+          </div>
+
+          <div class="feature-icon-card">
+            <div class="feature-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h4>Structured Training Sessions</h4>
+            <p>Classes follow deliberate timing with dedicated warm-up activations, main workout phases, and safe cool-down stretches.</p>
+          </div>
+
+          <div class="feature-icon-card">
+            <div class="feature-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+            </div>
+            <h4>Flexible Class Options</h4>
+            <p>Early morning, midday, and evening time slots allow you to plan movement smoothly around personal and professional routines.</p>
+          </div>
+
+          <div class="feature-icon-card">
+            <div class="feature-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h4>Supportive Environment</h4>
+            <p>A welcoming community where personal progress is celebrated, questions are encouraged, and members feel at ease.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Meet Our Trainers -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">Studio Instructors</span>
+          <h2>MEET OUR TRAINERS</h2>
+          <p>Generic coaching profiles illustrating the guidance, technique corrections, and support available in our studio.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <!-- Trainer 1 -->
+          <article class="trainer-card">
+            <div class="media-frame ratio-3-4">
+              <img src="images/trainer-01.jpeg" alt="FITNESS STUDIO - Trainer 01" class="media-img" loading="lazy">
+            </div>
+            <div class="trainer-card-body">
+              <h3>Fitness Instructor 01</h3>
+              <p class="trainer-role">HIIT & Conditioning Lead</p>
+              <p>Specializes in dynamic interval conditioning, pacing strategies, and motivating group participants through challenging cardio blocks.</p>
+              <div class="trainer-specs">
+                <span class="badge">HIIT</span>
+                <span class="badge">Conditioning</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Trainer 2 -->
+          <article class="trainer-card">
+            <div class="media-frame ratio-3-4">
+              <img src="images/trainer-02.jpeg" alt="FITNESS STUDIO - Trainer 02" class="media-img" loading="lazy">
+            </div>
+            <div class="trainer-card-body">
+              <h3>Strength Trainer 01</h3>
+              <p class="trainer-role">Resistance & Mechanics Coach</p>
+              <p>Focuses on joint-safe lifting mechanics, progressive overload principles, kettlebell fundamentals, and postural stability.</p>
+              <div class="trainer-specs">
+                <span class="badge">Strength</span>
+                <span class="badge">Form & Technique</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Trainer 3 -->
+          <article class="trainer-card">
+            <div class="media-frame ratio-3-4">
+              <img src="images/trainer-03.jpeg" alt="FITNESS STUDIO - Trainer 03" class="media-img" loading="lazy">
+            </div>
+            <div class="trainer-card-body">
+              <h3>Pilates Instructor 01</h3>
+              <p class="trainer-role">Pilates & Mobility Specialist</p>
+              <p>Guides controlled core stabilization, mindful spinal decompression, breath awareness, and full-body restorative mobility work.</p>
+              <div class="trainer-specs">
+                <span class="badge">Mat Pilates</span>
+                <span class="badge">Mobility</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center" style="margin-top: 2.5rem;">
+          <a href="trainers.html" class="btn btn-outline">View All Studio Trainers</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Weekly Class Preview -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">Class Timetable</span>
+          <h2>WEEKLY CLASS PREVIEW</h2>
+          <p>Illustrative upcoming sessions designed for diverse goals and schedules.</p>
+        </div>
+
+        <div class="timetable-grid">
+          <div class="timetable-card">
+            <div class="time-slot">
+              <span class="time-main">7:00 AM</span>
+              <span class="time-day">Monday</span>
+            </div>
+            <div class="class-info">
+              <h4>HIIT Training</h4>
+              <p>Cardio intervals, functional bodyweight, high-tempo conditioning.</p>
+            </div>
+            <div class="session-specs">
+              <span><strong>Duration:</strong> 45 min</span>
+              <span><strong>Trainer:</strong> Fitness Instructor 01</span>
+            </div>
+            <div>
+              <span class="badge badge-lime">Intermediate</span>
+            </div>
+            <div>
+              <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+            </div>
+          </div>
+
+          <div class="timetable-card">
+            <div class="time-slot">
+              <span class="time-main">6:00 PM</span>
+              <span class="time-day">Tuesday</span>
+            </div>
+            <div class="class-info">
+              <h4>Pilates</h4>
+              <p>Core stabilization, postural control, and mindful mat alignment.</p>
+            </div>
+            <div class="session-specs">
+              <span><strong>Duration:</strong> 50 min</span>
+              <span><strong>Trainer:</strong> Pilates Instructor 01</span>
+            </div>
+            <div>
+              <span class="badge badge-mint">Beginner</span>
+            </div>
+            <div>
+              <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+            </div>
+          </div>
+
+          <div class="timetable-card">
+            <div class="time-slot">
+              <span class="time-main">7:00 AM</span>
+              <span class="time-day">Wednesday</span>
+            </div>
+            <div class="class-info">
+              <h4>Strength Training</h4>
+              <p>Resistance drills, kettlebell mechanics, compound lifting technique.</p>
+            </div>
+            <div class="session-specs">
+              <span><strong>Duration:</strong> 60 min</span>
+              <span><strong>Trainer:</strong> Strength Trainer 01</span>
+            </div>
+            <div>
+              <span class="badge badge-beige">All Levels</span>
+            </div>
+            <div>
+              <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 2.5rem;">
+          <a href="schedule.html" class="btn btn-primary btn-lg">View Full Schedule</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Membership Preview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="eyebrow">Studio Memberships</span>
+          <h2>MEMBERSHIP PREVIEW</h2>
+          <p>Transparent and flexible options to support your routine with zero hidden commitments.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Starter</h3>
+              <p>Ideal for beginners exploring studio workouts at their own rhythm.</p>
+              <div class="price-display">Price to be announced</div>
+              <span class="price-sub">Illustrative Demo Option</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Access to 4 classes per month
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Choice of HIIT, Strength, or Pilates
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Studio locker & shower amenities
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Standard booking window
+              </li>
+            </ul>
+            <a href="membership.html" class="btn btn-outline">View Details</a>
+          </div>
+
+          <!-- Unlimited (Featured) -->
+          <div class="pricing-card featured">
+            <span class="pricing-badge-popular">Most Popular</span>
+            <div class="pricing-header">
+              <h3>Unlimited</h3>
+              <p>Total freedom to attend any group workout session throughout the month.</p>
+              <div class="price-display">Price to be announced</div>
+              <span class="price-sub">Illustrative Demo Option</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited group studio classes
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                All styles: HIIT, Strength, Pilates, Yoga, Dance
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Priority booking 7 days in advance
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Complimentary workshop invitations
+              </li>
+            </ul>
+            <a href="membership.html" class="btn btn-primary">Choose Unlimited</a>
+          </div>
+
+          <!-- Premium -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Premium</h3>
+              <p>Combined group classes with personalized one-to-one coaching guidance.</p>
+              <div class="price-display">Price to be announced</div>
+              <span class="price-sub">Illustrative Demo Option</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited group fitness classes
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                2 Personal training sessions / month
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Technique review & goal tracking
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Priority locker & towel service
+              </li>
+            </ul>
+            <a href="membership.html" class="btn btn-outline">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Fitness Community -->
+    <section class="section section-alt">
+      <div class="container editorial-grid">
+        <div class="community-copy">
+          <span class="eyebrow">Shared Momentum</span>
+          <h2>GOOD ENERGY IS BETTER SHARED.</h2>
+          <p class="lead">Training alongside others creates an infectious rhythm that transforms workouts from chores into anticipated daily rituals.</p>
+          <p>Group fitness unites individuals with diverse backgrounds under a common purpose: showing up, testing limits safely, and supporting each other's progress. In our studio, encouragement is standard practice and every personal milestone matters.</p>
+          <div class="btn-group" style="margin-top: 1.5rem;">
+            <a href="gallery.html" class="btn btn-outline">View Studio Gallery</a>
+            <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+          </div>
+        </div>
+        <div class="community-media">
+          <div class="media-frame ratio-16-9">
+              <img src="images/home-group-fitness.jpeg" alt="FITNESS STUDIO - Home Group Fitness" class="media-img" loading="lazy">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 11: Final CTA -->
+    <section class="section text-center" style="background: radial-gradient(circle at center, rgba(199, 243, 107, 0.08) 0%, transparent 70%);">
+      <div class="container container-narrow">
+        <span class="eyebrow">Start Your Journey</span>
+        <h2>READY TO MOVE DIFFERENTLY?</h2>
+        <p class="lead">Your fitness journey can start with one class. Find the workout that feels right for you.</p>
+        <div class="btn-group flex-center" style="margin-top: 2rem;">
+          <a href="booking.html" class="btn btn-primary btn-lg">Book Your First Class</a>
+          <a href="contact.html" class="btn btn-outline btn-lg">Contact the Studio</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link" aria-label="FITNESS STUDIO Home">
+            <svg class="brand-logo-symbol" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="50" cy="50" r="44" stroke="#383E3A" stroke-width="4" stroke-dasharray="8 6"/>
+              <path d="M28 50C28 37.8497 37.8497 28 50 28C62.1503 28 72 37.8497 72 50C72 62.1503 62.1503 72 50 72" stroke="#C7F36B" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="50" cy="50" r="10" fill="#C7F36B"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-title">FITNESS STUDIO</span>
+              <span class="brand-tagline-sub">FIND YOUR ENERGY. BUILD YOUR STRENGTH.</span>
+            </div>
+          </a>
+          <p>A modern boutique fitness studio offering structured class experiences, strength conditioning, Pilates, and supportive coaching for every fitness stage.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <nav class="footer-nav" aria-label="Footer Quick Links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About the Studio</a>
+            <a href="classes.html">All Classes</a>
+            <a href="programs.html">Fitness Programs</a>
+            <a href="trainers.html">Our Trainers</a>
+            <a href="schedule.html">Class Timetable</a>
+            <a href="membership.html">Membership & Pricing</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Classes</h4>
+          <nav class="footer-nav" aria-label="Footer Class Links">
+            <a href="hiit.html">HIIT Training</a>
+            <a href="strength.html">Strength Training</a>
+            <a href="pilates.html">Pilates</a>
+            <a href="yoga.html">Yoga & Mobility</a>
+            <a href="dance-fitness.html">Dance Fitness</a>
+            <a href="functional-training.html">Functional Training</a>
+            <a href="personal-training.html">Personal Training</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Studio Info</h4>
+          <div class="footer-contact-list">
+            <p><strong>Phone:</strong> 0000000000</p>
+            <p><strong>Alt Phone:</strong> 0000000000</p>
+            <p><strong>Email:</strong> demo@example.com</p>
+            <p><strong>Address:</strong> Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana &ndash; 000000.</p>
+            <p><strong>Hours:</strong> Mon &ndash; Sat: 6:00 AM &ndash; 9:00 PM<br>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FITNESS STUDIO. All rights reserved. Demo Website for custom boutique studio showcase.</p>
+        <p>Built with semantic HTML5, CSS3 &amp; Vanilla JavaScript. Zero external frameworks.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

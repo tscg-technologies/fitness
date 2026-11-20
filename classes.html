@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Fitness Classes &mdash; FITNESS STUDIO</title>
+  <meta name="description" content="Explore our full roster of boutique fitness classes: HIIT, Strength, Pilates, Yoga, Functional Training, and Personal Coaching.">
+  <link rel="canonical" href="https://example.com/classes.html">
+  <meta property="og:title" content="All Fitness Classes &mdash; FITNESS STUDIO">
+  <meta property="og:description" content="Find the workout that matches your goals: interval conditioning, resistance training, mat Pilates, and mobility sessions.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="FITNESS STUDIO Home">
+        <svg class="brand-logo-symbol" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="50" cy="50" r="44" stroke="#383E3A" stroke-width="4" stroke-dasharray="8 6"/>
+          <path d="M28 50C28 37.8497 37.8497 28 50 28C62.1503 28 72 37.8497 72 50C72 62.1503 62.1503 72 50 72" stroke="#C7F36B" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="50" cy="50" r="10" fill="#C7F36B"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-title">FITNESS STUDIO</span>
+          <span class="brand-tagline-sub">FIND YOUR ENERGY</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <div class="nav-item-dropdown">
+          <a href="classes.html" class="nav-link nav-dropdown-toggle active" id="classesDropdown">
+            Classes
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="classesDropdown">
+            <a href="classes.html" class="dropdown-link active">All Classes</a>
+            <a href="hiit.html" class="dropdown-link">HIIT Training</a>
+            <a href="strength.html" class="dropdown-link">Strength Training</a>
+            <a href="pilates.html" class="dropdown-link">Pilates</a>
+            <a href="yoga.html" class="dropdown-link">Yoga & Mobility</a>
+            <a href="dance-fitness.html" class="dropdown-link">Dance Fitness</a>
+            <a href="functional-training.html" class="dropdown-link">Functional Training</a>
+            <a href="personal-training.html" class="dropdown-link">Personal Training</a>
+            <a href="group-training.html" class="dropdown-link">Group Fitness</a>
+          </div>
+        </div>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="trainers.html" class="nav-link">Trainers</a>
+        <a href="schedule.html" class="nav-link">Schedule</a>
+        <a href="membership.html" class="nav-link">Membership</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="booking.html" class="btn btn-primary btn-sm">Book a Class</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <div class="mobile-nav-item"><a href="index.html">Home</a></div>
+      <div class="mobile-nav-item"><a href="about.html">About the Studio</a></div>
+      <div class="mobile-nav-item">
+        <button class="mobile-dropdown-header" aria-expanded="true">
+          Fitness Classes
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="mobile-dropdown-content open">
+          <a href="classes.html" class="active">All Classes Overview</a>
+          <a href="hiit.html">HIIT Training</a>
+          <a href="strength.html">Strength Training</a>
+          <a href="pilates.html">Pilates</a>
+          <a href="yoga.html">Yoga & Mobility</a>
+          <a href="dance-fitness.html">Dance Fitness</a>
+          <a href="functional-training.html">Functional Training</a>
+          <a href="personal-training.html">Personal Training</a>
+          <a href="group-training.html">Group Fitness</a>
+        </div>
+      </div>
+      <div class="mobile-nav-item"><a href="programs.html">Fitness Programs</a></div>
+      <div class="mobile-nav-item"><a href="trainers.html">Our Trainers</a></div>
+      <div class="mobile-nav-item"><a href="schedule.html">Class Schedule</a></div>
+      <div class="mobile-nav-item"><a href="membership.html">Membership & Pricing</a></div>
+      <div class="mobile-nav-item"><a href="gallery.html">Studio Gallery</a></div>
+      <div class="mobile-nav-item"><a href="events.html">Events & Workshops</a></div>
+      <div class="mobile-nav-item"><a href="blog.html">Fitness Journal</a></div>
+      <div class="mobile-nav-item"><a href="faq.html">FAQ</a></div>
+      <div class="mobile-nav-item"><a href="contact.html">Contact Us</a></div>
+    </div>
+    <div class="mobile-drawer-cta">
+      <a href="booking.html" class="btn btn-primary">Book a Class</a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Classes</span>
+        </nav>
+        <span class="eyebrow">Studio Class Directory</span>
+        <h1>ALL FITNESS CLASSES</h1>
+        <p class="lead">From high-tempo interval circuits to restorative mobility practices, discover coach-led group experiences designed for every training goal.</p>
+        <p class="badge badge-beige">Illustrative Demo Content &mdash; Sample Classes &amp; Timings</p>
+      </div>
+    </section>
+
+    <!-- Classes Section with Filter Bar -->
+    <section class="section">
+      <div class="container">
+        
+        <!-- Filter Controls -->
+        <div class="schedule-filter-bar">
+          <div class="filter-group">
+            <span class="filter-label">Filter by Focus:</span>
+            <button class="filter-btn active" data-class-filter="all">All Disciplines</button>
+            <button class="filter-btn" data-class-filter="hiit">HIIT & Cardio</button>
+            <button class="filter-btn" data-class-filter="strength">Strength & Resistance</button>
+            <button class="filter-btn" data-class-filter="pilates">Pilates & Core</button>
+            <button class="filter-btn" data-class-filter="mobility">Mobility & Yoga</button>
+            <button class="filter-btn" data-class-filter="dance">Dance Fitness</button>
+            <button class="filter-btn" data-class-filter="personal">Personal Coaching</button>
+          </div>
+        </div>
+
+        <!-- Class Cards Grid (10 required classes) -->
+        <div class="grid grid-3" id="classDirectoryGrid">
+          
+          <!-- 1. HIIT Training -->
+          <article class="class-card" data-class-category="hiit">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-hiit.jpeg" alt="FITNESS STUDIO - Class Dir HIIT" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-lime">HIIT</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>HIIT Training</h3>
+              <p>High-energy interval conditioning combining functional equipment, bodyweight drills, and structured rest periods.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Cardio & Power</span>
+                <span class="badge">Level: Intermediate</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="hiit.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Strength Training -->
+          <article class="class-card" data-class-category="strength">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-strength.jpeg" alt="FITNESS STUDIO - Class Dir Strength" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-mint">Strength</span>
+                <span class="badge">60 Min</span>
+              </div>
+              <h3>Strength Training</h3>
+              <p>Compound resistance routines with dumbbells, barbells, and kettlebells to build balanced physical strength and muscle tone.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Resistance & Form</span>
+                <span class="badge">Level: All Levels</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="strength.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Pilates -->
+          <article class="class-card" data-class-category="pilates">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-pilates.jpeg" alt="FITNESS STUDIO - Class Dir Pilates" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-beige">Pilates</span>
+                <span class="badge">50 Min</span>
+              </div>
+              <h3>Pilates Classes</h3>
+              <p>Controlled mat routines emphasizing powerhouse core recruitment, postural realignment, and spinal mobility.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Core & Alignment</span>
+                <span class="badge">Level: Beginner Friendly</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="pilates.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Yoga -->
+          <article class="class-card" data-class-category="mobility">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-yoga.jpeg" alt="FITNESS STUDIO - Class Dir Yoga" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-mint">Yoga</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>Yoga Flow</h3>
+              <p>Breath-synchronized movements, steady isometric postures, and mindful transitions designed to cultivate balance and calm.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Flexibility & Breath</span>
+                <span class="badge">Level: All Levels</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="yoga.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Dance Fitness -->
+          <article class="class-card" data-class-category="dance">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-dance.jpeg" alt="FITNESS STUDIO - Class Dir Dance" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-lime">Dance</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>Dance Fitness</h3>
+              <p>Infectious rhythm-based cardio combinations that combine musical pacing with aerobic endurance for an exhilarating full-body session.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Cardio & Coordination</span>
+                <span class="badge">Level: All Levels</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="dance-fitness.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Functional Training -->
+          <article class="class-card" data-class-category="strength">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-functional.jpeg" alt="FITNESS STUDIO - Class Dir Functional" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-beige">Functional</span>
+                <span class="badge">50 Min</span>
+              </div>
+              <h3>Functional Training</h3>
+              <p>Multi-planar movement circuits emphasizing rotational strength, balance stability, agility, and real-world athletic resilience.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Athletic Agility</span>
+                <span class="badge">Level: Intermediate</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="functional-training.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Core Training -->
+          <article class="class-card" data-class-category="pilates">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-core.jpeg" alt="FITNESS STUDIO - Class Dir Core" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-mint">Core</span>
+                <span class="badge">30 Min</span>
+              </div>
+              <h3>Core Training</h3>
+              <p>Targeted midsection conditioning focusing on abdominal endurance, oblique control, lower-back support, and pelvic floor stability.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Trunk Stability</span>
+                <span class="badge">Level: All Levels</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="pilates.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. Mobility and Stretching -->
+          <article class="class-card" data-class-category="mobility">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-mobility.jpeg" alt="FITNESS STUDIO - Class Dir Mobility" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-beige">Recovery</span>
+                <span class="badge">45 Min</span>
+              </div>
+              <h3>Mobility & Stretching</h3>
+              <p>Joint decompression protocols, active range-of-motion drills, and assisted foam rolling to relieve muscular tension and support recovery.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Joint Range</span>
+                <span class="badge">Level: All Levels</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="yoga.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9. Group Conditioning -->
+          <article class="class-card" data-class-category="hiit">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-group-conditioning.jpeg" alt="FITNESS STUDIO - Class Dir Group Conditioning" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-lime">Team</span>
+                <span class="badge">50 Min</span>
+              </div>
+              <h3>Group Conditioning</h3>
+              <p>Community station circuits integrating rowing, sled pushes, dumbbell carries, and team relays in a supportive environment.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Team Stamina</span>
+                <span class="badge">Level: All Levels</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="group-training.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Class</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10. Personal Training -->
+          <article class="class-card" data-class-category="personal">
+            <div class="media-frame ratio-4-5">
+              <img src="images/class-dir-personal.jpeg" alt="FITNESS STUDIO - Class Dir Personal" class="media-img" loading="lazy">
+            </div>
+            <div class="class-card-body">
+              <div class="class-card-meta">
+                <span class="badge badge-mint">1-on-1</span>
+                <span class="badge">60 Min</span>
+              </div>
+              <h3>Personal Training</h3>
+              <p>Bespoke one-on-one coaching focused entirely on your specific movement mechanics, fitness milestones, and individual programming.</p>
+              <div class="class-specs-list">
+                <span class="badge">Focus: Customized Coaching</span>
+                <span class="badge">Level: Tailored</span>
+              </div>
+              <div class="class-card-footer">
+                <a href="personal-training.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <a href="booking.html" class="btn btn-primary btn-sm">Book Session</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="safety-callout" style="margin-top: 3.5rem;">
+          <h4>Adaptive Workout Guidelines</h4>
+          <p>All classes and durations shown on this page represent illustrative demo content. At FITNESS STUDIO, exercise intensity is always adaptable to your personal fitness level. Beginners are encouraged to speak with the coach prior to class to receive individualized movement adjustments.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link" aria-label="FITNESS STUDIO Home">
+            <svg class="brand-logo-symbol" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="50" cy="50" r="44" stroke="#383E3A" stroke-width="4" stroke-dasharray="8 6"/>
+              <path d="M28 50C28 37.8497 37.8497 28 50 28C62.1503 28 72 37.8497 72 50C72 62.1503 62.1503 72 50 72" stroke="#C7F36B" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="50" cy="50" r="10" fill="#C7F36B"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-title">FITNESS STUDIO</span>
+              <span class="brand-tagline-sub">FIND YOUR ENERGY. BUILD YOUR STRENGTH.</span>
+            </div>
+          </a>
+          <p>A modern boutique fitness studio offering structured class experiences, strength conditioning, Pilates, and supportive coaching for every fitness stage.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <nav class="footer-nav" aria-label="Footer Quick Links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About the Studio</a>
+            <a href="classes.html">All Classes</a>
+            <a href="programs.html">Fitness Programs</a>
+            <a href="trainers.html">Our Trainers</a>
+            <a href="schedule.html">Class Timetable</a>
+            <a href="membership.html">Membership & Pricing</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Classes</h4>
+          <nav class="footer-nav" aria-label="Footer Class Links">
+            <a href="hiit.html">HIIT Training</a>
+            <a href="strength.html">Strength Training</a>
+            <a href="pilates.html">Pilates</a>
+            <a href="yoga.html">Yoga & Mobility</a>
+            <a href="dance-fitness.html">Dance Fitness</a>
+            <a href="functional-training.html">Functional Training</a>
+            <a href="personal-training.html">Personal Training</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Studio Info</h4>
+          <div class="footer-contact-list">
+            <p><strong>Phone:</strong> 0000000000</p>
+            <p><strong>Alt Phone:</strong> 0000000000</p>
+            <p><strong>Email:</strong> demo@example.com</p>
+            <p><strong>Address:</strong> Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana &ndash; 000000.</p>
+            <p><strong>Hours:</strong> Mon &ndash; Sat: 6:00 AM &ndash; 9:00 PM<br>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FITNESS STUDIO. All rights reserved. Demo Website for custom boutique studio showcase.</p>
+        <p>Built with semantic HTML5, CSS3 &amp; Vanilla JavaScript. Zero external frameworks.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

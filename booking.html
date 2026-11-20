@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Class &mdash; FITNESS STUDIO</title>
+  <meta name="description" content="Reserve a workout class or submit a booking enquiry for HIIT, Strength, Pilates, Yoga, or Personal Training at FITNESS STUDIO.">
+  <link rel="canonical" href="https://example.com/booking.html">
+  <meta property="og:title" content="Book a Class &mdash; FITNESS STUDIO">
+  <meta property="og:description" content="Interactive demo class booking enquiry interface for boutique studio workouts.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="FITNESS STUDIO Home">
+        <svg class="brand-logo-symbol" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="50" cy="50" r="44" stroke="#383E3A" stroke-width="4" stroke-dasharray="8 6"/>
+          <path d="M28 50C28 37.8497 37.8497 28 50 28C62.1503 28 72 37.8497 72 50C72 62.1503 62.1503 72 50 72" stroke="#C7F36B" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="50" cy="50" r="10" fill="#C7F36B"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-title">FITNESS STUDIO</span>
+          <span class="brand-tagline-sub">FIND YOUR ENERGY</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <div class="nav-item-dropdown">
+          <a href="classes.html" class="nav-link nav-dropdown-toggle" id="classesDropdown">
+            Classes
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="classesDropdown">
+            <a href="classes.html" class="dropdown-link">All Classes</a>
+            <a href="hiit.html" class="dropdown-link">HIIT Training</a>
+            <a href="strength.html" class="dropdown-link">Strength Training</a>
+            <a href="pilates.html" class="dropdown-link">Pilates</a>
+            <a href="yoga.html" class="dropdown-link">Yoga & Mobility</a>
+            <a href="dance-fitness.html" class="dropdown-link">Dance Fitness</a>
+            <a href="functional-training.html" class="dropdown-link">Functional Training</a>
+            <a href="personal-training.html" class="dropdown-link">Personal Training</a>
+            <a href="group-training.html" class="dropdown-link">Group Fitness</a>
+          </div>
+        </div>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="trainers.html" class="nav-link">Trainers</a>
+        <a href="schedule.html" class="nav-link">Schedule</a>
+        <a href="membership.html" class="nav-link">Membership</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="blog.html" class="nav-link">Journal</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="booking.html" class="btn btn-primary btn-sm active">Book a Class</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <div class="mobile-nav-item"><a href="index.html">Home</a></div>
+      <div class="mobile-nav-item"><a href="about.html">About the Studio</a></div>
+      <div class="mobile-nav-item">
+        <button class="mobile-dropdown-header" aria-expanded="false">
+          Fitness Classes
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="mobile-dropdown-content">
+          <a href="classes.html">All Classes Overview</a>
+          <a href="hiit.html">HIIT Training</a>
+          <a href="strength.html">Strength Training</a>
+          <a href="pilates.html">Pilates</a>
+          <a href="yoga.html">Yoga & Mobility</a>
+          <a href="dance-fitness.html">Dance Fitness</a>
+          <a href="functional-training.html">Functional Training</a>
+          <a href="personal-training.html">Personal Training</a>
+          <a href="group-training.html">Group Fitness</a>
+        </div>
+      </div>
+      <div class="mobile-nav-item"><a href="programs.html">Fitness Programs</a></div>
+      <div class="mobile-nav-item"><a href="trainers.html">Our Trainers</a></div>
+      <div class="mobile-nav-item"><a href="schedule.html">Class Schedule</a></div>
+      <div class="mobile-nav-item"><a href="membership.html">Membership & Pricing</a></div>
+      <div class="mobile-nav-item"><a href="gallery.html">Studio Gallery</a></div>
+      <div class="mobile-nav-item"><a href="events.html">Events & Workshops</a></div>
+      <div class="mobile-nav-item"><a href="blog.html">Fitness Journal</a></div>
+      <div class="mobile-nav-item"><a href="faq.html">FAQ</a></div>
+      <div class="mobile-nav-item"><a href="contact.html">Contact Us</a></div>
+    </div>
+    <div class="mobile-drawer-cta">
+      <a href="booking.html" class="btn btn-primary">Book a Class</a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Book a Class</span>
+        </nav>
+        <span class="eyebrow">Class Enquiry</span>
+        <h1>BOOK A FITNESS CLASS</h1>
+        <p class="lead">Select your preferred workout discipline, date, and training format. Our studio team will review your enquiry.</p>
+        <div class="badge badge-beige">Interactive Frontend Demo Form &bull; No Live Reservation Processed</div>
+      </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="section">
+      <div class="container container-narrow">
+        
+        <!-- Booking Card -->
+        <div class="form-card">
+          
+          <!-- Alert Feedback Container -->
+          <div id="booking-feedback-alert" class="form-alert" role="alert"></div>
+
+          <form id="class-booking-form" novalidate>
+            <div class="form-grid">
+              
+              <!-- 1. Full Name -->
+              <div class="form-group">
+                <label for="book-name">Full Name *</label>
+                <input type="text" id="book-name" class="form-control" placeholder="e.g. Alex Morgan" required>
+                <span class="error-feedback">Please enter your full name (minimum 2 characters).</span>
+              </div>
+
+              <!-- 2. Email Address -->
+              <div class="form-group">
+                <label for="book-email">Email Address *</label>
+                <input type="email" id="book-email" class="form-control" placeholder="name@example.com" required>
+                <span class="error-feedback">Please enter a valid email address.</span>
+              </div>
+
+              <!-- 3. Phone Number -->
+              <div class="form-group">
+                <label for="book-phone">Phone Number *</label>
+                <input type="tel" id="book-phone" class="form-control" placeholder="0000000000" required>
+                <span class="error-feedback">Please provide a valid phone number.</span>
+              </div>
+
+              <!-- 4. Select Fitness Class -->
+              <div class="form-group">
+                <label for="book-class">Select Fitness Class *</label>
+                <select id="book-class" class="form-control" required>
+                  <option value="">-- Choose a Class --</option>
+                  <option value="HIIT Training">HIIT Training (45 min)</option>
+                  <option value="Strength Training">Strength Training (60 min)</option>
+                  <option value="Pilates Classes">Mat Pilates (50 min)</option>
+                  <option value="Yoga and Mobility">Yoga &amp; Mobility (45 min)</option>
+                  <option value="Dance Fitness">Dance Fitness (45 min)</option>
+                  <option value="Functional Training">Functional Training (50 min)</option>
+                  <option value="Personal Coaching">1-on-1 Personal Training (60 min)</option>
+                </select>
+                <span class="error-feedback">Please select a fitness class.</span>
+              </div>
+
+              <!-- 5. Preferred Date -->
+              <div class="form-group">
+                <label for="book-date">Preferred Date *</label>
+                <input type="date" id="book-date" class="form-control" required>
+                <span class="error-feedback">Please select a valid upcoming date.</span>
+              </div>
+
+              <!-- 6. Preferred Time -->
+              <div class="form-group">
+                <label for="book-time">Preferred Time *</label>
+                <select id="book-time" class="form-control" required>
+                  <option value="">-- Choose Time Slot --</option>
+                  <option value="Morning: 7:00 AM">Morning: 7:00 AM</option>
+                  <option value="Morning: 8:30 AM">Morning: 8:30 AM</option>
+                  <option value="Midday: 12:00 PM">Midday: 12:00 PM</option>
+                  <option value="Evening: 5:30 PM">Evening: 5:30 PM</option>
+                  <option value="Evening: 6:30 PM">Evening: 6:30 PM</option>
+                  <option value="Evening: 7:30 PM">Evening: 7:30 PM</option>
+                </select>
+                <span class="error-feedback">Please select a preferred time slot.</span>
+              </div>
+
+              <!-- 7. Experience Level -->
+              <div class="form-group">
+                <label for="book-level">Experience Level *</label>
+                <select id="book-level" class="form-control" required>
+                  <option value="">-- Select Your Level --</option>
+                  <option value="Beginner">Beginner (New to studio workouts)</option>
+                  <option value="Intermediate">Intermediate (Exercise regularly)</option>
+                  <option value="Advanced">Advanced (Experienced fitness enthusiast)</option>
+                </select>
+                <span class="error-feedback">Please select your experience level.</span>
+              </div>
+
+              <!-- 8. Individual or Group Session -->
+              <div class="form-group">
+                <label for="book-type">Session Type *</label>
+                <select id="book-type" class="form-control" required>
+                  <option value="">-- Session Format --</option>
+                  <option value="Group Class">Group Studio Class</option>
+                  <option value="Individual PT">1-on-1 Personal Coaching Session</option>
+                </select>
+                <span class="error-feedback">Please select individual or group format.</span>
+              </div>
+
+              <!-- 9. Additional Message -->
+              <div class="form-group form-grid-full">
+                <label for="book-message">Additional Notes / Movement Considerations (Optional)</label>
+                <textarea id="book-message" class="form-control" rows="4" placeholder="Let us know if you have specific fitness milestones or joint considerations..."></textarea>
+              </div>
+
+              <div class="form-grid-full" style="margin-top: 1rem;">
+                <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Validate Demo Enquiry</button>
+              </div>
+
+            </div>
+          </form>
+
+          <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center; margin-top: 1.5rem; margin-bottom: 0;">
+            * Required fields. This is an interactive frontend demonstration form. No personal data is stored or transmitted over any network.
+          </p>
+        </div>
+
+        <!-- Demonstration Notice Callout -->
+        <div class="safety-callout" style="margin-top: 3.5rem;">
+          <h4>Booking Policy &amp; Demo Status</h4>
+          <p>Please note that this form is a frontend prototype. It validates submission inputs using Vanilla JavaScript and outputs the required confirmation notification. No payment is collected, and no live class reservation is placed. In production, this form will connect directly to the studio's booking engine.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link" aria-label="FITNESS STUDIO Home">
+            <svg class="brand-logo-symbol" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="50" cy="50" r="44" stroke="#383E3A" stroke-width="4" stroke-dasharray="8 6"/>
+              <path d="M28 50C28 37.8497 37.8497 28 50 28C62.1503 28 72 37.8497 72 50C72 62.1503 62.1503 72 50 72" stroke="#C7F36B" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="50" cy="50" r="10" fill="#C7F36B"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-title">FITNESS STUDIO</span>
+              <span class="brand-tagline-sub">FIND YOUR ENERGY. BUILD YOUR STRENGTH.</span>
+            </div>
+          </a>
+          <p>A modern boutique fitness studio offering structured class experiences, strength conditioning, Pilates, and supportive coaching for every fitness stage.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <nav class="footer-nav" aria-label="Footer Quick Links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About the Studio</a>
+            <a href="classes.html">All Classes</a>
+            <a href="programs.html">Fitness Programs</a>
+            <a href="trainers.html">Our Trainers</a>
+            <a href="schedule.html">Class Timetable</a>
+            <a href="membership.html">Membership & Pricing</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Classes</h4>
+          <nav class="footer-nav" aria-label="Footer Class Links">
+            <a href="hiit.html">HIIT Training</a>
+            <a href="strength.html">Strength Training</a>
+            <a href="pilates.html">Pilates</a>
+            <a href="yoga.html">Yoga & Mobility</a>
+            <a href="dance-fitness.html">Dance Fitness</a>
+            <a href="functional-training.html">Functional Training</a>
+            <a href="personal-training.html">Personal Training</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Studio Info</h4>
+          <div class="footer-contact-list">
+            <p><strong>Phone:</strong> 0000000000</p>
+            <p><strong>Alt Phone:</strong> 0000000000</p>
+            <p><strong>Email:</strong> demo@example.com</p>
+            <p><strong>Address:</strong> Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana &ndash; 000000.</p>
+            <p><strong>Hours:</strong> Mon &ndash; Sat: 6:00 AM &ndash; 9:00 PM<br>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FITNESS STUDIO. All rights reserved. Demo Website for custom boutique studio showcase.</p>
+        <p>Built with semantic HTML5, CSS3 &amp; Vanilla JavaScript. Zero external frameworks.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
